@@ -1,1 +1,16 @@
-bin/*
+/MvcMovie/bin/
+/MvcMovie/bin/*
+
+MvcMovie/obj/Debug/netcoreapp1\.1/MvcMovie\.csproj\.CoreCompileInputs\.cache
+
+MvcMovie/obj/Debug/netcoreapp1\.1/MvcMovie\.csproj\.FileListAbsolute\.txt
+
+MvcMovie/obj/Debug/netcoreapp1\.1/MvcMovie\.dll
+
+MvcMovie/obj/Debug/netcoreapp1\.1/MvcMovie\.pdb
+
+MvcMovie/obj/MvcMovie\.csproj\.nuget\.g\.props
+
+MvcMovie/obj/project\.assets\.json
+
+MvcMovie\.userprefs
