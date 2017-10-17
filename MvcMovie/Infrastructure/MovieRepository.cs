@@ -20,5 +20,9 @@ namespace MvcMovie.Infrastructure
         {
             return await _context.Movies.Find(_ => true).ToListAsync();
         }
+
+        public async Task SaveMovieAsync(Movie movie){
+            await _context.Movies.InsertOneAsync(movie);
+        }
     }
 }

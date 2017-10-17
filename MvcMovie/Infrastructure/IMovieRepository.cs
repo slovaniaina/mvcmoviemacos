@@ -8,5 +8,7 @@ namespace MvcMovie.Infrastructure
     public interface IMovieRepository
     {
         Task<IEnumerable<Movie>> GetAllMovies();
+
+        Task SaveMovieAsync(Movie movie);
     }
 }

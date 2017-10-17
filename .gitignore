@@ -14,3 +14,9 @@ MvcMovie/obj/MvcMovie\.csproj\.nuget\.g\.props
 MvcMovie/obj/project\.assets\.json
 
 MvcMovie\.userprefs
+
+MvcMovie/obj/Debug/netcoreapp1\.1/MvcMovie\.AssemblyInfoInputs\.cache
+
+MvcMovie/obj/MvcMovie\.csproj\.nuget\.cache
+
+MvcMovie/obj/Debug/netcoreapp1\.1/MvcMovie\.csprojResolveAssemblyReference\.cache

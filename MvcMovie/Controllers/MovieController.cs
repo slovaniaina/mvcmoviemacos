@@ -25,6 +25,17 @@ namespace MvcMovie.Controllers
             return result;
         }
 
+        [HttpPost]
+        public async Task<JsonResult> Save([FromBody]Movie movie){
+            try{
+                await _movieRepository.SaveMovieAsync(movie);
+            }
+            catch(Exception ex){
+                return Json(ex.Message);
+            }
+            return Json("ok");
+        }
+
         private async Task<IEnumerable<Movie>> GetMovieInternal(){
             return await _movieRepository.GetAllMovies();
         }

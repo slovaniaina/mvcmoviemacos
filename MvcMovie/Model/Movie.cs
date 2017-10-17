@@ -15,7 +15,7 @@ namespace MvcMovie.Model
 
         public Movie()
         {
-            
+            CreatedOn = DateTime.Now;
         }
     }
 }
